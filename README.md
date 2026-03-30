@@ -3,6 +3,7 @@
 
 ```bash
 mkdir hw_files
+mkdir -p parent/child
 
 ls
 ```
@@ -111,4 +112,31 @@ Output:
 line1
 line2
 
+```
+
+## ls
+
+```bash
+ls
+ls -l
+ls -la
+ls -lh
+```
+
+## tree
+
+```bash
+tree
+tree -L 2
+```
+
+Output:
+```text
+├── dir1
+├── dir2
+├── file1.txt
+├── file2.txt
+├── notes.md
+└── parent
+    └── child
 ```
