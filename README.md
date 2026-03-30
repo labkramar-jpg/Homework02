@@ -27,8 +27,7 @@ Output:
 ```
 
 ---
-
-
+## touch
 ```bash
 touch file1.txt
 touch file2.txt notes.md
@@ -59,8 +58,8 @@ cat -n file1.txt
 
 Output:
 ```text
-1  line1
-2  line2
+  1  line1
+  2  line2
 ```
 
 
@@ -71,8 +70,8 @@ head file1.txt
 ```
 Output:
 ```text
-line1
-line2
+line 1
+line 2
 ```
 
 
@@ -81,7 +80,7 @@ head -n 1 file1.txt
 ```
 Output:
 ```text
-line1
+line 1
 ```
 
 ## tail
@@ -91,8 +90,8 @@ tail file1.txt
 ```
 Output:
 ```text
-line1
-line2
+line 1
+line 2
 ```
 
 
@@ -101,18 +100,13 @@ tail -n 1 file1.txt
 ```
 Output:
 ```text
-line2
+line 2
 ```
 
 ```bash
 tail -f file1.txt
 ```
-Output:
-```text
-line1
-line2
 
-```
 
 ## ls
 
@@ -140,3 +134,19 @@ Output:
 └── parent
     └── child
 ```
+
+## less
+
+```bash
+less file1.txt
+```
+
+Output:
+```text
+
+
+line1
+line2
+file1.txt (END)
+```
+
