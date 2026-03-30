@@ -14,3 +14,11 @@ Documents  hw_files   Pictures  Templates
 cd hw_files
 pwd
 /home/eugene/hw_files
+
+
+
+```bash
+touch file1.txt
+touch file2.txt notes.md
+ls
+file1.txt  file2.txt  notes.md
