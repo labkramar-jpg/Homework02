@@ -51,3 +51,13 @@ Output:
 line 1
 line 2
 ```
+
+```bash
+cat -n file1.txt
+```
+
+Output:
+```text
+1  line1
+2  line2
+```
