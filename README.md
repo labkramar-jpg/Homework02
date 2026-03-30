@@ -38,3 +38,16 @@ Output:
 ```text
 file1.txt  file2.txt  notes.md
 ```
+
+## cat
+
+```bash
+echo "line 1" > file1.txt
+echo "line 2" >> file1.txt
+cat file1.txt
+```
+Output:
+```text
+line 1
+line 2
+```
