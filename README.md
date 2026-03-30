@@ -61,3 +61,44 @@ Output:
 1  line1
 2  line2
 ```
+
+
+## head
+
+```bash
+head file1.txt
+```
+Output:
+```text
+line1
+line2
+```
+
+
+```bash
+head -n 1 file1.txt
+```
+Output:
+```text
+line1
+```
+
+## ефшд
+
+```bash
+tail file1.txt
+```
+Output:
+```text
+line1
+line2
+```
+
+
+```bash
+tail -n 1 file1.txt
+```
+Output:
+```text
+line2
+```
