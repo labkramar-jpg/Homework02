@@ -83,7 +83,7 @@ Output:
 line1
 ```
 
-## ефшд
+## tail
 
 ```bash
 tail file1.txt
@@ -101,4 +101,14 @@ tail -n 1 file1.txt
 Output:
 ```text
 line2
+```
+
+```bash
+tail -f file1.txt
+```
+Output:
+```text
+line1
+line2
+
 ```
