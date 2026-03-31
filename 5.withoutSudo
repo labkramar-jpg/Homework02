@@ -1,0 +1,17 @@
+```bash
+1. sudo visudo
+```
+
+```Output:
+[sudo] password for user:
+```
+
+2. добавить в файл: user ALL=(ALL) NOPASSWD: ALL и сохранить
+
+```bash
+sudo ls
+```
+
+```Output:
+dir1  dir2  file1.txt  notes.md  parent
+```
