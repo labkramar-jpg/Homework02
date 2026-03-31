@@ -112,9 +112,19 @@ tail -f file1.txt
 
 ```bash
 ls
-ls -l
-ls -la
 ls -lh
+ls -la
+ls -l
+```
+Output:
+```text
+total 16
+drwxrwxr-x 2 eugene eugene 4096 Mar 30 05:39 dir1
+drwxrwxr-x 2 eugene eugene 4096 Mar 30 05:39 dir2
+-rw-rw-r-- 1 eugene eugene   12 Mar 30 05:02 file1.txt
+-rw-rw-r-- 1 eugene eugene    0 Mar 30 04:33 file2.txt
+-rw-rw-r-- 1 eugene eugene    0 Mar 30 04:33 notes.md
+drwxrwxr-x 3 eugene eugene 4096 Mar 30 05:39 parent
 ```
 
 ## tree
@@ -150,3 +160,23 @@ line2
 file1.txt (END)
 ```
 
+## nano
+
+```bash
+nano file1.txt
+```
+
+## rm
+
+```bash
+rm file1.txt
+rm -f file2.txt
+rm -r dir1
+rm -rf dir2
+```
+
+## rmdir
+
+```bash
+rmdir empty_dir
+```
